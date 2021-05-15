@@ -1,0 +1,118 @@
+html {
+    scroll-behavior: smooth;
+}
+
+H1 {
+  color: #696969;
+  font-size: 24pt;
+  font-family: Arial, Georgia, Times, serif;
+  font-weight: bold;
+}
+p {
+  font-family: "Times New Roman";
+  font-size: 14pt;
+  text-align: justify;
+  margin-left: 60px;
+  margin-right: 10px;
+  /* border-left: 1px solid #999;
+  border-bottom: 10px; */
+}
+body {
+  font-family: Times, Arial, Verdana, sans-serif; /* Семейство шрифтов */
+  font-size: 14pt; /* Размер основного шрифта в пунктах */
+  background-color: #f0f0f0; /* Размер фона веб-страницы */
+  color: #333;
+  background-image: url("../img/oboi_textury215.jpg"); /* путь к файлу */ /* Цвет основного текста */
+}
+
+h2 {
+  color: olive;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+P.it {
+  color: navy;
+  margin-left: 20px;
+  border-left: 1px solid navy;
+  padding-left: 15px;
+  border-bottom: 3px solid #999;
+}
+.gt {
+  color: #ff00da;
+  font-weight: bold;
+}
+
+table {
+  background: #ffdab9;
+  width: 70%;
+  border: 1px solid #696969;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-collapse: separate;
+  border-spacing: 4px;
+  margin: auto;
+}
+
+table thead tr {
+  color: #ffffff;
+  font-weight: bold;
+}
+table thead tr td {
+  border-radius: 4px 4px 0 0;
+  border: 1px solid #2e82c3;
+  background: #a2c3dd;
+  font-size: 16px;
+  font-style: oblique;
+  font-family: Calibri;
+  padding: 15px;
+}
+
+.quote-list {
+    list-style: inside;
+    font-style: italic;
+    margin-left: 61px;
+}
+.quote-list li {
+    margin-top: 15px;
+}
+
+.list-rules {
+    list-style: none;
+}
+
+.list-rules li {
+    font-style: oblique;
+}
+
+.list-rules b {
+    font-style: normal;
+}
+
+.main-points {
+    margin-top: 30px;
+}
+
+.modern-grow-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: -4px;
+  margin-right: -4px;
+  background-color: #ffeac9;
+}
+
+.main-tasks {
+  background-color: #ffeac9;
+  padding-bottom: 15px;
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+.main-tasks ol li {
+  margin-top: 10px;
+}
+
+.maintenance li {
+  margin-top: 18px;
+}
+.maintenance li a {
+  text-decoration: none;
+}
